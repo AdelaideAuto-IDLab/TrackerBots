@@ -1,7 +1,7 @@
 # TrackerBots
 TrackerBots Project Code and Documentation.
 
-*Note that this repository will be updated once our paper get accepted.* 
+*Note that this repository will be updated once our paper gets accepted.* 
 
 ## Introduction
 
