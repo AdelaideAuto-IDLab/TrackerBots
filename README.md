@@ -18,3 +18,6 @@ TrackerBots is an open source framework to develop a fully autonomous system for
 * Hoa Nguyen: hoavan.nguyen@adelaide.edu.au
 * Michael Chesser: michael.chesser@adelaide.edu.au
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
