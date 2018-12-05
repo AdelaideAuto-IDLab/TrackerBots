@@ -1,0 +1,13 @@
+{
+    "pulse_targets": [
+        {
+            "freq": 150130000.0,
+            "duration": 0.0185,
+            "duration_variance": 0.02,
+            "threshold": 0.0005,
+            "edge_length": 10,
+            "gain": 0,
+            "peak_lookahead": 5
+        }
+    ]
+}

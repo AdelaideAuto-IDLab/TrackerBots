@@ -1,0 +1,8 @@
+[package]
+name = "animal_detector"
+version = "0.3.0"
+authors = ["Michael Chesser"]
+
+[dependencies]
+common = { path = "../common" }
+num-complex = "0.2"

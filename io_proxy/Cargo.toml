@@ -1,0 +1,12 @@
+[package]
+name = "io_proxy"
+version = "0.1.0"
+authors = ["Michael Chesser"]
+
+[dependencies]
+env_logger = "0.6.0"
+bytes = "0.4.11"
+futures = "0.1.25"
+log = "0.4.6"
+tokio = "0.1.13"
+tokio-serial = "3.1.0"

@@ -1,0 +1,12 @@
+{
+    "connection": {
+        "pulse_server_addr": "127.0.0.1:11000",
+        "pulse_log": "./pulses.log",
+        "drone": {
+            "mavlink_addr": "udpin:127.0.0.1:14552",
+            "log": "./telemetry.log",
+            "minimum_altitude": 10,
+            "home_detection": "FirstGps"
+        }
+    }
+}

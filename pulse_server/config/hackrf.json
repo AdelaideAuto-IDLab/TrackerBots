@@ -1,0 +1,23 @@
+{
+    "sdr_config": {
+        "samp_rate": 3000000,
+        "center_freq": 150000000,
+        "auto_gain": false,
+        "lna_gain": 8,
+        "vga_gain": 8,
+        "amp_enable": false,
+        "antenna_enable": false,
+        "baseband_filter": null
+    },
+    "pulse_targets": [
+        {
+            "freq": 150130000.0,
+            "duration": 0.0185,
+            "duration_variance": 0.02,
+            "threshold": 0.0005,
+            "edge_length": 10,
+            "gain": 0,
+            "peak_lookahead": 5
+        }
+    ]
+}

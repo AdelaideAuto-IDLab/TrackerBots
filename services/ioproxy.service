@@ -1,0 +1,13 @@
+[Unit]
+Description=IOProxy
+
+[Service]
+ExecStart=/home/root/io_proxy /dev/ttyMFD1 14552
+User=root
+Restart=on-failure
+RestartSec=10
+WorkingDirectory=/home/root/
+PermissionsStartOnly=true
+
+[Install]
+WantedBy=multi-user.target

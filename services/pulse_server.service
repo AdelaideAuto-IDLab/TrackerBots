@@ -1,0 +1,13 @@
+[Unit]
+Description=Pulse Server
+
+[Service]
+ExecStart=/home/root/pulse_server/pulse_server
+User=root
+Restart=on-failure
+RestartSec=10
+WorkingDirectory=/home/root/pulse_server
+PermissionsStartOnly=true
+
+[Install]
+WantedBy=multi-user.target
