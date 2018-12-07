@@ -1,0 +1,76 @@
+{
+    "simulation": {
+        "Internal": {
+            "rate": 1.0,
+            "targets": [
+                {
+                    "position": [1,1], 
+                    "freq": 150.130e6,
+                    "gain": 0
+                },
+                {
+                    "position": [-1,1],
+                    "freq": 151.46899e6,
+                    "gain": 0
+                },
+                {
+                    "position": [2,-1],
+                    "freq": 151.65901e6,
+                    "gain": 0
+                }
+            ]
+        }
+    },
+    "connection": {
+        "pulse_server_addr": "127.0.0.1:11000",
+        "pulse_log": "pulses.log",
+        "tracking_log": "tracking.log",
+        "snapshot_particles": 10000,
+        "drone": {
+            "mavlink_addr": "udpin:127.0.0.1:14552",
+            "log": "telemetry.log",
+            "minimum_altitude": 10,
+            "home_detection": "FirstGps"
+        }
+    },
+    "controller": {
+        "log": "controller.log",
+        "wait_count": 7,
+        "rotation_wait_ms": 100,
+        "mode": "Nothing",
+        "on_complete": "GoToHome",
+        "target_precision": 10.0,
+        "void_config": {
+            "min_radius": 20.0,
+            "void_threshold": 0.7,
+            "valid_region": [
+                [5,5],
+                [5,-5],
+                [-5,-5],
+                [-5,5]
+            ]
+        }
+    },
+    "propagation_model": {
+        "noise": 10,
+        "alpha": 2.0,
+        "beta": -39.67,
+        "tag_height": 1.0,
+        "signal_freq": 150e6,
+        "relative_dielectric_constant": 15.0,
+        "conductivity": 5e-3,
+        "antenna_gain_path": "./resources/Antenna_Gain.csv"
+    },
+    "particle_filter_config": {
+        "num_particles": 10000,
+        "position_noise": 1.0,
+        "min_alt": 25,
+        "override_alt": 30,
+        "override_dt": 1.0,
+        "initial_region": {
+            "top_left": [-5, 5],
+            "bottom_left": [-5, -5],
+            "bottom_right": [5, -5]
+        }
+    }
+}

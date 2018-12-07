@@ -1,0 +1,340 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-12-07T01:40:50.990Z",
+	"__export_source": "insomnia.desktop.app:v6.0.2",
+	"resources": [
+		{
+			"_id": "wrk_e65f2b700ba8402289bc432f6c748708",
+			"created": 1513554666754,
+			"description": "",
+			"modified": 1513554666754,
+			"name": "Trackerbots",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_bc2464b682fa424bb5342063bb32acd3",
+			"color": null,
+			"created": 1513554666787,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1534127423356,
+			"modified": 1544146768405,
+			"name": "New Environment",
+			"parentId": "wrk_e65f2b700ba8402289bc432f6c748708",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_cf3d9620ec104ddbb5bba6af401d28da",
+			"cookies": [],
+			"created": 1513554666890,
+			"modified": 1513554666890,
+			"name": "Default Jar",
+			"parentId": "wrk_e65f2b700ba8402289bc432f6c748708",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_dfb1429be9364b5fa9e1157da6c8354d",
+			"created": 1521779695293,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1521779695293,
+			"modified": 1522215246007,
+			"name": "Drone",
+			"parentId": "wrk_e65f2b700ba8402289bc432f6c748708",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_056aca966ecf4dfeb1f9ddad09f89171",
+			"created": 1522215197838,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1522215197838,
+			"modified": 1522215197838,
+			"name": "PulseServer",
+			"parentId": "wrk_e65f2b700ba8402289bc432f6c748708",
+			"_type": "request_group"
+		},
+		{
+			"_id": "env_985eefb25c9646d7b0f57fb83c487d02",
+			"color": null,
+			"created": 1532679555243,
+			"data": {
+				"server": "http://localhost:8000"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1532679555243,
+			"modified": 1544146778713,
+			"name": "Trackerbots Local",
+			"parentId": "env_bc2464b682fa424bb5342063bb32acd3",
+			"_type": "environment"
+		},
+		{
+			"_id": "req_51d317091b3346b1b1f670cd375c6161",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": " "
+			},
+			"created": 1522208267222,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e18f7c19dd76433998c5ed91abb8145c",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1520378497901.75,
+			"method": "GET",
+			"modified": 1544146783408,
+			"name": "Telemetry",
+			"parameters": [],
+			"parentId": "fld_dfb1429be9364b5fa9e1157da6c8354d",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/drone",
+			"_type": "request"
+		},
+		{
+			"_id": "req_493c82befb79464b9e514f1bc6b23484",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"x\": 0,\n\t\"y\": 10,\n\t\"alt\": 0,\n\t\"yaw\": 30\n}"
+			},
+			"created": 1522208677910,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_de1a7965e7284ae5991f07160f55c62b",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1521422217369.5,
+			"method": "POST",
+			"modified": 1544146782913,
+			"name": "GoTo",
+			"parameters": [],
+			"parentId": "fld_dfb1429be9364b5fa9e1157da6c8354d",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/drone",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3697683272744170af4e0367c95b0ac0",
+			"authentication": {},
+			"body": {},
+			"created": 1522208847543,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1520320513486.875,
+			"method": "GET",
+			"modified": 1544146783976,
+			"name": "Latest Pulse",
+			"parameters": [],
+			"parentId": "fld_dfb1429be9364b5fa9e1157da6c8354d",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/pulses",
+			"_type": "request"
+		},
+		{
+			"_id": "req_522e553056814686a3a1b1c23ec8acb3",
+			"authentication": {},
+			"body": {},
+			"created": 1522211840114,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1521538186199.25,
+			"method": "POST",
+			"modified": 1544146782079,
+			"name": "Arm",
+			"parameters": [],
+			"parentId": "fld_dfb1429be9364b5fa9e1157da6c8354d",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/drone/arm",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c8049979378e41e197f7a1eabe6e5656",
+			"authentication": {},
+			"body": {},
+			"created": 1534895257692,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1534895257692,
+			"method": "GET",
+			"modified": 1544146781604,
+			"name": "Read Pulses",
+			"parameters": [],
+			"parentId": "fld_dfb1429be9364b5fa9e1157da6c8354d",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{server}}/pulses/0",
+			"_type": "request"
+		},
+		{
+			"_id": "req_40a3d726986446e682fba85d12c44d9d",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"PulseTargets\": [\n\t\t{\n\t\t\t\"freq\": 150000000.0,\n\t\t\t\"duration\": 0.01,\n\t\t\t\"duration_variance\": 0.001,\n\t\t\t\"threshold\": 0.008,\n\t\t\t\"edge_length\": 10,\n\t\t\t\"gain\": 0,\n\t\t\t\"peak_lookahead\": 5\n\t\t},\n\t\t{\n\t\t\t\"freq\": 150100000.0,\n\t\t\t\"duration\": 0.01,\n\t\t\t\"duration_variance\": 0.001,\n\t\t\t\"threshold\": 0.008,\n\t\t\t\"edge_length\": 10,\n\t\t\t\"gain\": 0,\n\t\t\t\"peak_lookahead\": 5\n\t\t},\n\t\t{\n\t\t\t\"freq\": 150200000.0,\n\t\t\t\"duration\": 0.01,\n\t\t\t\"duration_variance\": 0.001,\n\t\t\t\"threshold\": 0.008,\n\t\t\t\"edge_length\": 10,\n\t\t\t\"gain\": 0,\n\t\t\t\"peak_lookahead\": 5\n\t\t}\t\n\t]\n}\n"
+			},
+			"created": 1522118030348,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_de1a7965e7284ae5991f07160f55c62b",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_15cdb4700d054c6ca28efc118798954e",
+					"name": "",
+					"value": ""
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1522106322151.75,
+			"method": "POST",
+			"modified": 1544146817686,
+			"name": "Update PulseTargets",
+			"parameters": [],
+			"parentId": "fld_056aca966ecf4dfeb1f9ddad09f89171",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server }}/pulse-server",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d54ce4e9396a41f9babccc7138e8be49",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "\"Start\""
+			},
+			"created": 1522118421604,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_13fa1686ac3b44d8923e0c4067faae69",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1522106322101.75,
+			"method": "POST",
+			"modified": 1544146818267,
+			"name": "Start PulseServer",
+			"parameters": [],
+			"parentId": "fld_056aca966ecf4dfeb1f9ddad09f89171",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/pulse-server",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2ee79f8113f148079311278ad2973015",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "\"Stop\""
+			},
+			"created": 1522118621074,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_13fa1686ac3b44d8923e0c4067faae69",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1522106322051.75,
+			"method": "POST",
+			"modified": 1544146819038,
+			"name": "Stop PulseServer",
+			"parameters": [],
+			"parentId": "fld_056aca966ecf4dfeb1f9ddad09f89171",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/pulse-server",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9e18846b92d74b638efd1217984fc6d4",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"SdrConfig\": {\n\t\t\"samp_rate\": 3000000,\n\t\t\"center_freq\": 151000000,\n\t\t\"auto_gain\": false,\n\t\t\"lna_gain\": 40,\n\t\t\"vga_gain\": 32,\n\t\t\"amp_enable\": false,\n\t\t\"antenna_enable\": false,\n\t\t\"baseband_filter\": null\n\t}\n}"
+			},
+			"created": 1522118669184,
+			"description": "Run Configuration file every time Edison restart, then Update Pulse Targets and Start Pulse Server",
+			"headers": [
+				{
+					"id": "pair_13fa1686ac3b44d8923e0c4067faae69",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1522106322201.75,
+			"method": "POST",
+			"modified": 1544146819565,
+			"name": "Configure SDR",
+			"parameters": [],
+			"parentId": "fld_056aca966ecf4dfeb1f9ddad09f89171",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/pulse-server",
+			"_type": "request"
+		}
+	]
+}
