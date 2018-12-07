@@ -19,7 +19,7 @@ Cite using:
     year={2018}
   }
 
-  @article{nguyen_acra018_trackerbots,
+  @article{nguyen_acra2018_trackerbots,
     title={TrackerBots: Software in the Loop Study of Quad-Copter Robots for
 Locating Radio-tags in a 3D Space},
     author={Nguyen, Hoa Van and Rezatofighi, S. Hamid  and Taggart, David and Ostendorf, Bertram  and Ranasinghe, Damith C},
