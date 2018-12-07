@@ -1,7 +1,7 @@
 ## Introduction
 This folder contains all of tracking and planning algorithm written in `MATLAB` to track and localize multiple radio-tagged targets in 3D environment as well as navigates the UAV move in the direction to improve the tracking accuracy. This repository is provided as part of the following paper:
 
-Nguyen H. V., Rezatofighi S.H., Taggart D., Ostendorf B., Ranasinghe D. C. (2018). *TrackerBots: Software in the Loop Study of Quad-Copter Robots for Locating Radio-tags in a 3D Space*. Australasian Conference on Robotics and Automation 2018. [ACRA_2018](ACRA_2018/Paper/ACRA_2018.pdf). Demo video can be found at [TrackBots - ACRA 2018](https://www.youtube.com/watch?v=K-hXbtpvmGY)
+Nguyen H. V., Rezatofighi S.H., Taggart D., Ostendorf B., Ranasinghe D. C. (2018). *TrackerBots: Software in the Loop Study of Quad-Copter Robots for Locating Radio-tags in a 3D Space*. Australasian Conference on Robotics and Automation 2018. [ACRA_2018](Paper/ACRA_2018.pdf). Demo video can be found at [TrackBots - ACRA 2018](https://www.youtube.com/watch?v=K-hXbtpvmGY)
 
 Cite using:
 
