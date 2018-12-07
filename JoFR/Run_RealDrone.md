@@ -23,7 +23,7 @@ cargo run --release -- serial:/dev/ttyUSB0 14551 14552
 
 - Open `QGroundControl`, go to `Comm Links` Tab, Add `UDP 14551` Port 
 
-  ![UDP Config](/home/hoa/Documents/Github_ADL/AdelaideAuto-IDLab_Public/TrackerBots/JoFR/Figures/QGroundControl_Config.png)
+  ![UDP Config](Figures/QGroundControl_Config.png)
 
 - Disable all device connections
 
