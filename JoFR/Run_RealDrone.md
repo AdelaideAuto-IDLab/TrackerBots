@@ -51,7 +51,7 @@ cd ../telemetry_host &&  cargo run --release config.json | tee  log.txt
 ### 4. Configure using Insomnia
 
 * Download `Insomnia` @ https://insomnia.rest/
-* Load the configuraation files from `Config/Trackerbots_Config.json`
+* Load the configuration files from `Config/Trackerbots_Config.json`
 
 * Configure `pulse_server` in the Edison for difference SDR: `HackRF` or `Airspy` in the config file:
 
