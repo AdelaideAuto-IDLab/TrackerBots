@@ -5,7 +5,7 @@ TrackerBots Project Code and Documentation.
 
 TrackerBots is an open source framework to develop a fully autonomous system for Unmanned Aerial Vehicles (UAVs) to track multiple radio-tagged objects. This repository is provided as part of the following papers :
 
-1. Nguyen H. V., Chesser M., Koh L.P, Rezatofighi S. H., & Ranasinghe D. C. (2018). *TrackerBots: Autonomous UAV for Real-Time Localization and Tracking of Multiple Radio-Tagged Animals*. Journal of Field Robotics (to be appear). The submitted version is freely available at [ArXiv:1712.01491](https://arxiv.org/abs/1712.01491). Please contact us if you need a full accepted version. 
+1. Nguyen H. V., Chesser M., Koh L.P, Rezatofighi S. H., & Ranasinghe D. C. (2019). *TrackerBots: Autonomous unmanned aerial vehicle for real‐time localization and tracking of multiple radio‐tagged animals*. Journal of Field Robotics. The submitted version is freely available at [ArXiv:1712.01491](https://arxiv.org/abs/1712.01491). Please contact us if you need a full accepted version. 
 2. Nguyen H. V., Rezatofighi S.H., Taggart D., Ostendorf B., Ranasinghe D. C. (2018). *TrackerBots: Software in the Loop Study of Quad-Copter Robots for
 Locating Radio-tags in a 3D Space*. Australasian Conference on Robotics and Automation 2018. [ACRA_2018](ACRA_2018/Paper/ACRA_2018.pdf)
   
@@ -13,10 +13,10 @@ Cite using:
 
   ```
   @article{nguyen_jofr2018_trackerbots,
-    title={TrackerBots: Autonomous UAV for Real-Time Localization and Tracking of Multiple Radio-Tagged Animals},
+    title={TrackerBots: Autonomous unmanned aerial vehicle for real‐time localization and tracking of multiple radio‐tagged animals},
     author={Nguyen, Hoa Van and Chesser, Michael and Koh, Lian Pin and Rezatofighi, S Hamid and Ranasinghe, Damith C},
     journal={Journal of Field Robotics},
-    year={2018}
+    year={2019}
   }
 
   @article{nguyen_acra2018_trackerbots,
