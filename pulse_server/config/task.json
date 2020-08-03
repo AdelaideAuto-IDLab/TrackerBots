@@ -1,4 +1,4 @@
 {
     "addr": "127.0.0.1:11000",
-    "mode": "HackRF"
+    "mode": `"Test": { "rate_ms": 1000, "freq": 150130000 }
 }

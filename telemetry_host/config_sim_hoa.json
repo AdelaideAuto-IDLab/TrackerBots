@@ -1,25 +1,23 @@
 {
     "simulation": {
-        "Internal": {
-            "rate": 1.0,
-            "targets": [
-                {
-                    "position": [1,1], 
-                    "freq": 150.130e6,
-                    "gain": 0
-                },
-                {
-                    "position": [-1,1],
-                    "freq": 151.46899e6,
-                    "gain": 0
-                },
-                {
-                    "position": [2,-1],
-                    "freq": 151.65901e6,
-                    "gain": 0
-                }
-            ]
-        }
+        "rate": 1.0,
+        "targets": [
+            {
+                "position": [150, 200],
+                "freq": 151.2e6,
+                "gain": 0
+            },
+            {
+                "position": [100, 100],
+                "freq": 152.048e6,
+                "gain": 0
+            },
+            {
+                "position": [0, 50],
+                "freq": 150.130e6,
+                "gain": 0
+            }
+        ]
     },
     "connection": {
         "pulse_server_addr": "127.0.0.1:11000",
