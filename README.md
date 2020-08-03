@@ -5,26 +5,42 @@ TrackerBots Project Code and Documentation.
 
 TrackerBots is an open source framework to develop a fully autonomous system for Unmanned Aerial Vehicles (UAVs) to track multiple radio-tagged objects. This repository is provided as part of the following papers :
 
-1. Nguyen H. V., Chesser M., Koh L.P, Rezatofighi S. H., & Ranasinghe D. C. (2019). *TrackerBots: Autonomous unmanned aerial vehicle for real‐time localization and tracking of multiple radio‐tagged animals*. Journal of Field Robotics. The submitted version is freely available at [ArXiv:1712.01491](https://arxiv.org/abs/1712.01491). Please contact us if you need a full accepted version. 
-2. Nguyen H. V., Rezatofighi S.H., Taggart D., Ostendorf B., Ranasinghe D. C. (2018). *TrackerBots: Software in the Loop Study of Quad-Copter Robots for
-Locating Radio-tags in a 3D Space*. Australasian Conference on Robotics and Automation 2018. [ACRA_2018](ACRA_2018/Paper/ACRA_2018.pdf)
-  
+1. Nguyen H. V., Chen F., Chesser J., Rezatofighi H., Ranasinghe D. (2020). *LAVAPilot: Lightweight UAVTrajectory Planner with Situational Awarenessfor Embedded Autonomy to Track and Locate Radio-tags*. IEEE/RSJ  International  Conference  on  Intelligent  Robots  and  Systems 2020. [Paper](https://arxiv.org/abs/2007.15860).Demo video can be found at [TrackBots - IROS 2020](https://youtu.be/W-nbMDOZ1iw)
+2. Nguyen H. V., Chesser M., Koh L.P, Rezatofighi S. H., & Ranasinghe D. C. (2019). *TrackerBots: Autonomous unmanned aerial vehicle for real‐time localization and tracking of multiple radio‐tagged animals*. Journal of Field Robotics. The submitted version is freely available at [ArXiv:1712.01491](https://arxiv.org/abs/1712.01491). Please contact us if you need a full accepted version. 
+3. Nguyen H. V., Rezatofighi S.H., Taggart D., Ostendorf B., Ranasinghe D. C. (2018). *TrackerBots: Software in the Loop Study of Quad-Copter Robots for
+  Locating Radio-tags in a 3D Space*. Australasian Conference on Robotics and Automation 2018. [ACRA_2018](ACRA_2018/Paper/ACRA_2018.pdf)
+
 Cite using:
 
   ```
-  @article{nguyen_jofr2018_trackerbots,
+ @inproceedings{nguyen2020LAVAPilot,
+  title={LAVAPilot: Lightweight UAVTrajectory Planner with Situational Awarenessfor Embedded Autonomy to Track and Locate Radio-tags},
+  author={Hoa Van Nguyen, Fei Chen, Joshua Chesser, Hamid Rezatofighi and Damith Ranasinghe},
+  booktitle={Proceedings of the  IEEE/RSJ  International  Conference  on  Intelligent  Robots  and  Systems 2020},
+  year={2020}
+}
+
+  @article{nguyen2019trackerbots,
     title={TrackerBots: Autonomous unmanned aerial vehicle for real‐time localization and tracking of multiple radio‐tagged animals},
     author={Nguyen, Hoa Van and Chesser, Michael and Koh, Lian Pin and Rezatofighi, S Hamid and Ranasinghe, Damith C},
     journal={Journal of Field Robotics},
-    year={2019}
+    year={2019},
+    volume={36},
+	number={3},
+	pages={617--635},
   }
 
-  @article{nguyen_acra2018_trackerbots,
+  @inproceedings{nguyen2018trackerbots,
     title={TrackerBots: Software in the Loop Study of Quad-Copter Robots for
 Locating Radio-tags in a 3D Space},
     author={Nguyen, Hoa Van and Rezatofighi, S. Hamid  and Taggart, David and Ostendorf, Bertram  and Ranasinghe, Damith C},
-    journal={Australasian Conference on Robotics and Automation 2018},
-    year={2018}
+    booktitle={Australasian Conference on Robotics and Automation 2018},
+    year={2018},
+    month = {Dec},
+    pages={304--313},
+    isbn = {978-1-5108-7958-4},
+    numpages = {10},
+    address = {Lincoln, New Zealand},
   }
   ```
 
@@ -41,9 +57,9 @@ Locating Radio-tags in a 3D Space},
   
 ## Main Program
 
+* [IROS 2020](IROS_2020): A `MATLAB` tracking and planning algorithm for the *LAVAPilot: Lightweight UAVTrajectory Planner with Situational Awarenessfor Embedded Autonomy to Track and Locate Radio-tags* paper. 
 * [JoFR](JoFR): A `MATLAB` tracking and planning algorithm for the *TrackerBots: Autonomous UAV for Real-Time Localization and Tracking of Multiple Radio-Tagged Animals* paper. 
-* [ACRA_2018](ACRA_2018): A `MATLAB` tracking and planning algorithm for the *TrackerBots: Software in the Loop Study of Quad-Copter Robots for
-Locating Radio-tags in a 3D Space* paper. 
+* [ACRA_2018](ACRA_2018): A `MATLAB` tracking and planning algorithm for the *TrackerBots: Software in the Loop Study of Quad-Copter Robots for Locating Radio-tags in a 3D Space* paper. 
 
 ## Auxiliary Components
 * `animal_detector`: Signal processing library to detect the pulse emitted from the VHF radio tags.
