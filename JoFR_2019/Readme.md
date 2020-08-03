@@ -1,7 +1,7 @@
 ## Introduction
 This folder contains all of tracking and planning algorithm written in `MATLAB` to track and localize multiple radio-tagged targets as well as navigates the UAV move in the direction to improve the tracking accuracy. This repository is provided as part of the following paper (to be appear):
 
-Nguyen H. V., Chesser M., Koh L.P, Rezatofighi S. H., & Ranasinghe D. C. (2018). *TrackerBots: Autonomous UAV for Real-Time Localization and Tracking of Multiple Radio-Tagged Animals*. Journal of Field Robotics. The submitted version is freely available at [ArXiv:1712.01491](https://arxiv.org/abs/1712.01491). Demo video can be found at [TrackBots - JoFR 2018](https://youtu.be/mHMOWIHFmcY). Please contact us if you need a full accepted version.
+Nguyen H. V., Chesser M., Koh L.P, Rezatofighi S. H., & Ranasinghe D. C. (2018). *TrackerBots: Autonomous UAV for Real-Time Localization and Tracking of Multiple Radio-Tagged Animals*. Journal of Field Robotics. [Paper](http://autoidlab.cs.adelaide.edu.au/sites/default/files/publications/papers/JoFR_trackerbots_after_embargo.pdf).
 
 Cite using:
 
