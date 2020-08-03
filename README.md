@@ -7,7 +7,7 @@ TrackerBots is an open source framework to develop a fully autonomous system for
 
 1. Nguyen H. V., Chen F., Chesser J., Rezatofighi H., Ranasinghe D. (2020). *LAVAPilot: Lightweight UAVTrajectory Planner with Situational Awarenessfor Embedded Autonomy to Track and Locate Radio-tags*. IEEE/RSJ  International  Conference  on  Intelligent  Robots  and  Systems 2020. [Paper](IROS_2020/Paper/IROS_2020.pdf). [Demo video](https://youtu.be/W-nbMDOZ1iw)
 2. Nguyen H. V., Chesser M., Koh L.P, Rezatofighi S. H., & Ranasinghe D. C. (2019). *TrackerBots: Autonomous unmanned aerial vehicle for real‐time localization and tracking of multiple radio‐tagged animals*. Journal of Field Robotics. [Paper](http://autoidlab.cs.adelaide.edu.au/sites/default/files/publications/papers/JoFR_trackerbots_after_embargo.pdf). [Demo video](https://www.youtube.com/watch?v=K-hXbtpvmGY).
-3. Nguyen H. V., Rezatofighi S.H., Taggart D., Ostendorf B., Ranasinghe D. C. (2018). *TrackerBots: Software in the Loop Study of Quad-Copter Robots for Locating Radio-tags in a 3D Space*. Australasian Conference on Robotics and Automation 2018. [Paper](ACRA_2018/Paper/ACRA_2018.pdf)
+3. Nguyen H. V., Rezatofighi S.H., Taggart D., Ostendorf B., Ranasinghe D. C. (2018). *TrackerBots: Software in the Loop Study of Quad-Copter Robots for Locating Radio-tags in a 3D Space*. Australasian Conference on Robotics and Automation 2018. [Paper](ACRA_2018/Paper/ACRA_2018.pdf). [Demo video](https://www.youtube.com/watch?v=K-hXbtpvmGY). 
 
 Cite using:
 
