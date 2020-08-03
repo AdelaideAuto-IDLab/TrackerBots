@@ -57,8 +57,8 @@ Locating Radio-tags in a 3D Space},
 ## Main Program
 
 * [IROS 2020](IROS_2020): A `MATLAB` tracking and planning algorithm for the *LAVAPilot: Lightweight UAVTrajectory Planner with Situational Awarenessfor Embedded Autonomy to Track and Locate Radio-tags* paper. 
-* [JoFR_2019](JoFR_2019): A `MATLAB` tracking and planning algorithm for the *TrackerBots: Autonomous UAV for Real-Time Localization and Tracking of Multiple Radio-Tagged Animals* paper. 
-* [ACRA_2018](ACRA_2018): A `MATLAB` tracking and planning algorithm for the *TrackerBots: Software in the Loop Study of Quad-Copter Robots for Locating Radio-tags in a 3D Space* paper. 
+* [JoFR 2019](JoFR_2019): A `MATLAB` tracking and planning algorithm for the *TrackerBots: Autonomous UAV for Real-Time Localization and Tracking of Multiple Radio-Tagged Animals* paper. 
+* [ACRA 2018](ACRA_2018): A `MATLAB` tracking and planning algorithm for the *TrackerBots: Software in the Loop Study of Quad-Copter Robots for Locating Radio-tags in a 3D Space* paper. 
 
 ## Auxiliary Components
 * `animal_detector`: Signal processing library to detect the pulse emitted from the VHF radio tags.
